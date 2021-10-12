@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: groundhog-gateway-center
+  cloud:
+    nacos:
+      config:
+        server-addr: 10.0.0.100:8848
+        file-extension: yml
+      discovery:
+        server-addr: 10.0.0.100:8848
